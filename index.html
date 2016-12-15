@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang='en-US'>
+<html lang='fr'>
 
   <head>
     <title>Portfolio</title>
@@ -12,35 +12,40 @@
     <link rel='stylesheet' href='./css/main.css'/>
   </head>
 
-  <body data-spy='scroll' data-target='#my-navbar' data-offset='70'>
+  <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><p>Jean-Patrice CALVEZ</p> </a>
+     </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
 
-    <nav id='my-navbar' class='navigation navbar navbar-inverse navbar-fixed-top'>
-      <div class='container-fluid'>
-        <div class='navbar-header'>
-          <button type='button' data-target='#navbar-collapse' data-toggle='collapse' class='navbar-toggle'>
-            <span class='sr-only'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-          </button><!--.navbar-toggle-->
-          <a class='navbar-brand' href='#'>Jean-Patrice CALVEZ</a>
-        </div><!--navbar-header-->
-        <div id='navbar-collapse' class='collapse navbar-collapse'>
-          <ul class='nav navbar-nav navbar-right'>
-            <li class='active'><a href='#'>About</a></li>
-            <li><a href='#portfolio'>Portfolio</a></li>
-            <li><a href='#contact'>Contact</a></li>
-          </ul>
-        </div><!--#navbarCollapse-->
-      </div><!--.container-fluid-->
-    </nav><!--#myNavbar-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>      
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav><!--#myNavbar-->
 
    <div class='container-fluid'>
     <div class='row-fluid' id='about'>
-        <h1 class='text-center'>About Me</h1>
+        <h1 class='text-center'>A mon sujet</h1>
 
       <div class='col-sm-offset-1 col-sm-6 col-md-offset-3'>
-        <h4 class='transbox text-justify'>I'm JP. I am a self-taught web developer. I am also a <br><br> In the past, I worked <br><br>I am interested in either freelancing or attaining a remote job position developing websites and web applications.
+        <h4 class='transbox text-justify'> Je suis un web developpeur web front-end junior issu de la Code Académie Rennes.<br> Auparavant, j'ai travaillé dans le domaine de l'inspection techniqueI des bâtiments.<br><br>Je suis à la recherche d'un stage au sein d'une agence web pour développer des sites internet et des applications web. Je suis disposé à exercer des fonctions similaires dans le cadre du télé-travail.
         </h4>
       </div>
 
@@ -49,31 +54,31 @@
       </div><!--.col-xs-offset-3-->
 
       <div class='col-sm-12 col-md-offset-2 col-md-8 white-transbox'>
-        <h3>Languages/Frameworks</h3>
+        <h3>Langages/Frameworks</h3>
 
-        <div class='col-xs-3 col-sm-2'>
+        <div class='col-xs-4 col-sm-2'>
           <img class='img-responsive' src='./images/HTML5_Logo_256.png' alt='HTML5 logo'>
         </div>
 
-        <div class='col-xs-3 col-sm-2'>
+        <div class='col-xs-4 col-sm-2'>
           <img class='img-responsive css3-logo' src='./images/css3.png' alt='CSS 3 logo'>
         </div>
 
-        <div class='col-xs-3 col-sm-2'>
+        <div class='col-xs-4 col-sm-2'>
           <img class='img-responsive' src='./images/bootstrap.png' alt='Bootstrap 3 logo'>
         </div>
 
-        <div class='col-xs-3 col-sm-2'>
+        <div class='col-xs-4 col-sm-2'>
           <img class='img-responsive' src='./images/js-logo-badge-512.png' alt='Javascript Logo'>
         </div>
 
         <span class='visible-xs-block'><br></span>
 
-        <div class='col-xs-3 col-sm-2'>
+        <div class='col-xs-4 col-sm-2'>
           <img class='img-responsive' src='./images/jQuery.gif' alt='jQuery logo'>
         </div>
 
-        <div class='col-xs-3 col-sm-2'>
+        <div class='col-xs-4 col-sm-2'>
           <img id='angular1-logo' class='img-responsive' src='./images/angularjs-logo.png' alt='Angular 1 Logo' />
         </div>
 
@@ -81,6 +86,70 @@
      </div><!--#about-->
     
   </div><!--container-fluid-->
+    <div class="container-fluid" id="portfolio">
+    <!-- Section Header -->
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2 class="section-header">Our Work</h2>
+        <p class="tagline">Check out some of our past work. We have to say we are pretty proud of this stuff!<p>
+      </div>
+    </div>
+    <!-- Portfolio Entries -->
+    <div class="row text-center portfolio-entries">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row">
+          <a href="http://codepen.io/sgirardeau/full/MayKmV"><div class="col-md-4 col-xs-12">
+            <img src="http://s28.postimg.org/x75f22m59/quote.png" alt="" class="img-responsive" />
+            <div class="caption">
+              <p></p>
+              <p class="codeUsed"></p>
+            </div>
+            </div></a>
+          <a href="#"><div class="col-md-4 col-xs-12">
+            <img src="http://placehold.it/500x200" alt="" class="img-responsive" />
+            <div class="caption">
+              <p></p>
+              <p class="codeUsed"></p>
+            </div>
+            </div></a>
+          <a href="#"><div class="col-md-4 col-xs-12">
+            <img src="http://placehold.it/500x200" alt="" class="img-responsive" />
+            <div class="caption">
+              <p></p>
+              <p class="codeUsed"></p>
+            </div>
+            </div></a>
+        </div>
+      </div>  
+    </div>
+    <div class="row text-center portfolio-entries">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row">
+          <a href="#"><div class="col-md-4 col-xs-12">
+            <img src="http://placehold.it/500x200" alt="" class="img-responsive"  />
+            <div class="caption">
+              <p></p>
+              <p class="codeUsed"></p>
+            </div>
+            </div></a>
+          <a href="#"><div class="col-md-4 col-xs-12">
+            <img src="http://placehold.it/500x200" alt="" class="img-responsive" />
+            <div class="caption">
+              <p></p>
+              <p class="codeUsed"></p>
+            </div>
+            </div></a>
+          <a href="#"><div class="col-md-4 col-xs-12">
+            <img src="http://placehold.it/500x200" alt="" class="img-responsive" />
+            <div class="caption">
+              <p>.</p>
+              <p class="codeUsed"></p>
+            </div>
+            </div></a>
+        </div>
+      </div>  
+    </div>
+  </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
   <script src='https://cdn.jsdelivr.net/bootstrap.autohidingnavbar/1.0.5/jquery.bootstrap-autohidingnavbar.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>

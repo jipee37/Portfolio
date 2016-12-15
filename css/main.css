@@ -1,32 +1,31 @@
 body {
-  background-color: #000000;
-  margin-top:50px;
-  color:#FFFFFF;
+  background-color: #ECF0F1;
+  margin-top: 50px;
+  color: #fff;
 }
 
-a {
-  outline:none !important;
-  text-decoration:none !important;
-  color:#FFFFFF !important;
+nav {
+  background-color: #999;
+  border: 1px solid black;
+  padding-bottom: .5rem;
 }
+
+nav.navbar-default {
+  border-color: #444;
+  background-color: #ecf0f1;
+  padding-bottom: 2px;
+  }
 
 #about {
-  position:relative;
+  position: relative;
   background-image: url('../images/img-bg.jpg');
-  background-size:cover;
-  background-attachment:fixed;
-  margin-left:-1%;
-  width:102%;
-  overflow:hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
-#portfolio {
-  background-image:url('../images/coding-php.jpg');
-  background-size:cover;
-  background-attachment:fixed;
-  width:102%;
-  margin-left:-1%;
-  overflow:hidden;
+h1{
+    color: #eb5d1e;
 }
 
 #contact {
@@ -40,9 +39,7 @@ a {
 }
 
 #my-picture {
-  position:relative;
-  width:85%;
-  margin-bottom:120%;
+    margin-bottom: 155%;   
 }
 
 .css3-logo {
@@ -50,25 +47,61 @@ a {
 }
 
 #angular1-logo {
-  margin-left:-15%;
+  margin-left:15%;
 }
 
 .transbox {
-  background-color:rgb(0, 0, 0);
-  background-color:rgba(0, 0, 0, .6);
-  padding:10px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, .6);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .white-transbox {
-  position:absolute;
-  display:inline-block;
-  background-color:rgb(255, 255, 255);
-  background-color:rgba(255, 255, 255, .4);
-  color:#000000;
-  //margin-top:1%;
-  bottom:0;
-  left:0;
+  position: absolute;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, .3);
+  color:#111;
+  bottom: 0;  
+  border-radius: 5px;  
 }
+
+h3 {
+    padding-bottom: .3em;
+}
+
+
+
+
+
+
+
+
+
+
+/*Styles for 'portfolio' ======== */
+
+div.portfolio-entries {
+  padding-top: 5em;
+}
+
+div.portfolio-entries a {
+  color: white;
+}
+
+div.portfolio-entries a:hover {
+  position: relative;
+  top: -1em;
+  opacity: .60;
+}
+
+#portfolio div.caption {
+  display: block;
+  padding: 1.25em 0 .75em 0;
+  background-color: #414141;
+}
+
+
 
 .thumbnail {
   position:relative;
