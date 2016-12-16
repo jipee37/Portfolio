@@ -16,6 +16,16 @@ nav.navbar-default {
   padding-bottom: 2px;
   }
 
+#my-picture{
+    max-width: 75%;
+}
+
+@media screen and (max-width: 768px){
+#my-picture{
+    display: none;
+    }
+}
+
 #about {
   position: relative;
   background-image: url('../images/img-bg.jpg');
@@ -38,13 +48,6 @@ h1{
   overflow:hidden;
 }
 
-#my-picture {
-    position:absolute;
-    top:10px;
-    right:0;
-    width: 85%;
-    margin-bottom: 155%;
-}
 
 .css3-logo {
   width:70%;
@@ -63,12 +66,12 @@ h1{
 
 .white-transbox {
   position: absolute;
-  bottom: 50px
+  bottom: 0;  
   display: inline-block;
   background-color: rgba(255, 255, 255, .3);
   color:#111;
-  bottom: 0;
   border-radius: 5px;
+    max-height: 60%;
 }
 
 h3 {
