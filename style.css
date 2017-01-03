@@ -1,0 +1,75 @@
+body {
+    font-family: Open Sans; 
+    background-image: url('images/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+html{
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+ 
+    width: 50%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    background-color: transparent;/*#1e90ff;*/
+    border:4px solid #b0e0e6;
+    border-radius:5px;
+    color: grey;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+
+.title {
+    text-decoration: underline;
+    color: #444;
+}
+
+#quiz {
+    text-indent: 10px;
+    /*display:none;*/
+}
+
+.button {
+    border: 4px solid;
+    border-radius: 5px;
+    width: 40px;
+    padding: 0 5px;
+    float: right;
+    background-color: #dcdcdc;
+    color: black;
+    margin: 0 2px;
+}
+
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.button.active {
+    background-color: red/*#f8f8ff*/;
+    color: green/*#525252*/;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#start {
+    display:none; /*retire le bouton au premier démarrage du quizz; le bouton étant caché au redémarrage par .hide()*/
+    width: 90px;
+}
