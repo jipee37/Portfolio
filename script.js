@@ -4,7 +4,6 @@
   
     var questions = [{
     question: "What is 2*5?",
-    /*questiontest: "this is a test",*/
     choices: [2, 5, 10, 15, 20],
     correctAnswer: 2
   }, {
@@ -13,7 +12,7 @@
     correctAnswer: 4
   }, {
     question: "What is 8*9?",
-    choices: ["this is a test", 99, 108, 134, 156],
+    choices: [72, 99, 108, 134, 156],
     correctAnswer: 0
   }, {
     question: "What is 1*7?",
