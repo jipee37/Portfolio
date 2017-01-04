@@ -2,9 +2,16 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Dynamic JS Quiz</title>
+  <title>JS based Quiz</title>
 
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
+  <!--Google-Font-->  
+  <link href="https://fonts.googleapis.com/css?family=Lemonada|Cedarville+Cursive" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -14,12 +21,13 @@
 		<div id="container">
 
             <div class="title">
-				<h1>Learning Js Properly: Project #1 - Dynamic Quiz </h1>
+				<h1>Bienvenue dans mon JS "basic" quiz </h1>
 			</div>
-   			<br/>
+   			
 
             <div id="quiz"></div>
-
+            
+        <div class="inline">
             <div class="button" id="next">
                 <a href="#">Next</a>
             </div>
@@ -27,8 +35,9 @@
             <div class="button" id="prev">
                 <a href="#">Prev</a>
             </div>
-
-            <div class="button" id="start">
+        </div>
+            
+               <div class="button" id="start">
                 <a href="#">Start Over</a>
             </div>
 

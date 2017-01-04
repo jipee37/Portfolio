@@ -3,26 +3,48 @@
  /* variables declaration*/
   
     var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
+    question: "Quelle est la capitale de la Moldavie ?",
+    choices: ["Bratislava", "Tachkent", "Chisinau",  "Vaduz", "Nicosie"],
     correctAnswer: 2
   }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
+    question: "Quelle est la capitae du Ghana ?",
+    choices: ["Luanda", "Maseru", "Kampala", " Accra", "Porto Novo"],
+    correctAnswer: 3    
+  }, {
+    question: "Quelle est la capitale de l'Uruguay ?",
+    choices: ["Asuncion", "Sucre", "Port Stanley", " Tegucigalpa", "Montevideo"],
     correctAnswer: 4
   }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
-    correctAnswer: 0
+    question: "Quelle est la capitale du Cambodge ?",
+    choices: ["Pyongyang", "Phnom Penh", "Rangoon", "Hanoi", "Oulan-Bator"],
+    correctAnswer: 1
   }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
+    question: "Quelle est la capitale de la Macédoine ?",
+    choices: ["Ljubljana", "Skopje", "Tirana", "Sofia", "Belgrade"],
+    correctAnswer: 1
+  }, {
+    question: "Quelle est la capitale de la Papouasie Nouvelle-Guinée ?",
+    choices: ["Port Stanley", "Canberra", "Wellington", "Port Moresby", "Suva"],
     correctAnswer: 3
-  }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
-  }];
+ }, {
+    question: "Quelle est la capitale du Burundi ?",
+    choices: ["Bujumbura", "Addis-Abeba", " Kigali", "Mbabane", "Kampala"],
+    correctAnswer: 0
+}, {
+    question: "Quelle est la capitale du Surinam ?",
+    choices: ["Caracas", "Paramaribo", "Georgetown", "Cayenne", "Castries"],
+    correctAnswer: 1
+}, {
+    question: "Quelle est la capitale du Tadjikistan ?",
+    choices: ["Bichkek", "Bakou", "Achgabat", "Douchanbé", " Astana"],
+    correctAnswer: 3
+},  {
+    question: "De quel pays Niamey est-elle la capitale ?",
+    choices: ["Bénin", "Togo", "Tchad", "Niger", "Erythrée"],
+    correctAnswer: 3 
+
+}];
+    
 
   var questionCounter = 0; //Tracks question number
   var responses = []; //Array containing user choices
@@ -92,7 +114,7 @@
       id: 'question'
     });
 
-    var header = $('<h2>Question ' + (index + 1) + ':</h2>');
+    var header = $('<h2 style="text-decoration: underline;">Question ' + (index + 1) + ':</h2>');
     qElement.append(header);
 
     var question = $('<p>').append(questions[index].question);
@@ -168,7 +190,7 @@
     }
 
     score.append('You got ' + numCorrect + ' questions out of ' +
-                 questions.length + ' right!!!');
+                 questions.length + ' right !!!');
     return score;
   }
 })();
