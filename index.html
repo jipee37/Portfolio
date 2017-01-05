@@ -19,35 +19,32 @@
   </head>
 
   <body>
-      <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><p>Jean-Patrice CALVEZ</p> </a>
-     </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><p>Jean-Patrice CALVEZ</p> </a>
+             </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-  </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+         </div><!-- /.container-fluid -->
+    </nav>
 
    
-    <div class="container-fluid" id="about">
+    <header class="row-fluid" id="about">
         <h1 class="text-center">Hello World!</h1>
 
       <div class="col-sm-offset-1 col-sm-6 col-md-offset-3">
@@ -89,9 +86,9 @@
         </div>
 
       </div><!--.whiteTransbox-->
-     </div><!--#about-->
+     </header><!--#about-->
 
-    <div class="row-fluid" id="portfolio">
+    <section class="row-fluid" id="portfolio">
       <h1 class="text-center">Portfolio</h1>
 
       <div class="col-xs-12 col-sm-5 col-md-3 thumbnail">
@@ -120,7 +117,7 @@
 
       <div class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-3 thumbnail">
         <img src="./images/backgrounds/img-bg1.jpg" alt="">
-          <a href="http:///" class="site-link" target="_blank">
+          <a href="http://" class="site-link" target="_blank">
             <h4 class="text-center"></h4>
             <p class="text-justify left-right"></p>
             <div class="languages-used">
@@ -137,7 +134,7 @@
               </div>
 
               <div class="col-xs-3">
-                <img class="img-responsive" src="./images/logosjs.png" alt="Javascript Logo">
+                <img class="img-responsive" src="./images/logos/js.png" alt="Javascript Logo">
               </div>
             </div>
           </a>
@@ -234,8 +231,36 @@
           </div>
         </a>
       </div>
-    </div><!--#portfolio-->
-<!--</div>-->
+    </section><!--#portfolio-->
+<!--<div class='container-fluid'>-->
+    <div class="row-fluid" id="contact">
+        <div class="col-sm-12">
+            <h1 class="text-center">Contact Me</h1>
+        </div>
+
+        <div class="col-sm-6 col-sm-offset-3 transbox">
+            <h4 class="text-justify">I am available for hire and am actively looking for opportunities. If you have a project or remote position I may be suitable for, or just want to connect, feel free to contact me. Email is the best way to reach me.</h4>
+        </div>
+
+        <div class="white-transbox col-sm-12 col-md-8 col-md-offset-2">
+            <div class="col-xs-3 col-sm-offset-2 col-sm-2" id="github-link">
+                <a href="https://github.com"><img class="img-responsive" src="images/socials/Github.png" alt="Github"></a>
+            </div>
+
+            <div class="col-xs-3 col-sm-2" id="linked-in-link">
+                <a href="https://www.linkedin.com"><img class="img-responsive" src="images/socials/LinkedIn.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="col-xs-3 col-sm-2" id="codepen-link">
+                <a href="http://codepen.io"><img class="img-responsive" src="images/socials/Codepen.png" alt="codepen"></a>
+            </div>
+
+            <div class="col-xs-3 col-sm-2" id="mail-link">
+                <a href="mailto:j.calvez@sfr.fr"><img class="img-responsive" src="images/socials/mail.png" alt="mail"></a>
+            </div>
+        </div><!--.whiteTransbox-->
+        </div><!--#contact-->
+      <!--</div>--><!--container-fluid-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bootstrap.autohidingnavbar/1.0.5/jquery.bootstrap-autohidingnavbar.min.js"></script>

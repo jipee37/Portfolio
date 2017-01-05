@@ -9,26 +9,21 @@ html{
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #ecf0f1;
   margin-top: 50px;
   color: #fff;
-  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway'', sans-serif;
   line-height: 160%;
   font-weight: 300;
 }
 
 
-nav.navbar-default {
-  background-color: #ecf0f1;
-  /*padding-bottom: 2px;*/
+nav.navbar-inverse {
+  padding-bottom: 2px;
   }
 
 #my-picture{
-    display: block;
-    max-width: 70%;
-  
+    max-width: 70%;  
 }
 
 @media screen and (max-width: 768px){
@@ -42,10 +37,24 @@ nav.navbar-default {
   background-image: url('../images/backgrounds/img-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
-  /*overflow: hidden;*/
 }
 
+#portfolio {
+  background-image:url('../images/backgrounds/coding-php.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+#contact {
+  position:relative;
+  background-image:url('../images/backgrounds/mairie.jpg');
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+
 h1{
+    margin-top: 0;
     color: #eb5d1e;
 }
 
@@ -89,31 +98,9 @@ h3 {
 
 /* Styles for portfolio */
 
-div.portfolio-entries {
-  padding-top: 5em;
-}
-
-div.portfolio-entries a {
-  color: white;
-}
-
-div.portfolio-entries a:hover {
-  position: relative;
-  top: -1em;
-  opacity: .60;
-}
-
-#portfolio div.caption {
-  display: block;
-  padding: 1.25em 0 .75em 0;
-  background-color: #414141;
-}
-
-
-
 .thumbnail {
-  position:relative;
-  border:none;
+  position: relative;
+  border: none;
 }
 
 .site-link {
@@ -125,7 +112,7 @@ div.portfolio-entries a:hover {
   height:100%;
   left:0;
   top:0;
-  color:#FFFFFF;
+  color:#fff;
 }
 
 .site-link:hover {
@@ -149,14 +136,14 @@ div.portfolio-entries a:hover {
 }
 
 #github-link:hover, #codepen-link:hover {
-  background-color:#FFFFFF;
+  background-color:#fff;
 }
 
 #linked-in-link:hover {
-  background-color:#007BB5;
+  background-color:#007bb5;
 }
 
-#gmail-link:hover {
-  background-color:#DD4B39;
+#mail-link:hover {
+  background-color:#dd4b39;
 }
 
