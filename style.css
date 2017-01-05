@@ -1,6 +1,6 @@
 body {
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 1.1em;
+    font-size: 1.4em;
     background-image: url('images/img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +11,8 @@ body {
 html{
     height: 100%;
     display: flex;
-    justify-content: ;
-    align-items: ;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -20,12 +20,13 @@ html{
     
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     padding: 0 50px;
     border: none;
     color: grey;
     font-weight: bolder;
     box-shadow: 2px 2px 2px #887560;
+    
    
 }
 
@@ -40,53 +41,89 @@ html{
 }
 
 #quiz {
+    
     margin: 0;
     padding: 0;
     text-indent: 10px;
     color: dimgrey;
 }
 
-.button {
+.inline{
     
-    align-self: flex-end;
+    display: inline-flex;
+    justify-content: flex-end;
+    
+}
+
+.button {
+       
     text-align: center;
     border: 2px solid;
     border-radius: 6px;
-    width: 40px;
-    padding: 0 5px;
-    /*color: inherit;*/
+    width: auto;
+    padding: 5px;
     margin: 0.1em ;
-    display: inline-flex;
+    
 }
 
 
 .button a {
+    
     text-decoration: none;
     color: black;
 }
 
 
 .button.active {
+    
     background-color: #f8f8ff;
     color: dimgrey;
 }
 
 
 ul {
+    
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 #next{
-
+    order: 1;  
 }
 
 #pre {
-
+    order: 0;  
 }
 
 #start {
+   
     display: none; /*retire le bouton au premier démarrage du quizz; le bouton étant caché au redémarrage par .hide()*/
-    width: 90px;
+    align-self: flex-end;
 }
+
+
+@media screen and (max-width:768px){
+    
+    .title {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
