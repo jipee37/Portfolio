@@ -9,27 +9,17 @@ html{
 }
 
 body {
-  background-color: #ecf0f1;
   margin-top: 50px;
   color: #fff;
-  font-family: 'Raleway'', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 160%;
   font-weight: 300;
 }
 
-
-nav.navbar-inverse {
-  padding-bottom: 2px;
-  }
-
-#my-picture{
-    max-width: 70%;  
-}
-
-@media screen and (max-width: 768px){
-#my-picture{
-    display: none;
-    }   
+a {
+  outline:none !important;
+  text-decoration:none !important;
+  color:#fff !important;
 }
 
 #about {
@@ -37,12 +27,18 @@ nav.navbar-inverse {
   background-image: url('../images/backgrounds/img-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
+  margin-left:-1%;
+  width:102%;
+  overflow:hidden;
 }
 
 #portfolio {
   background-image:url('../images/backgrounds/coding-php.jpg');
   background-size:cover;
   background-attachment:fixed;
+  width:102%;
+  margin-left:-1%;
+  overflow:hidden;
 }
 
 #contact {
@@ -50,46 +46,43 @@ nav.navbar-inverse {
   background-image:url('../images/backgrounds/mairie.jpg');
   background-size:cover;
   background-attachment:fixed;
-}
-
-
-h1{
-    margin-top: 0;
-    color: #eb5d1e;
-}
-
-/*#contact {
-  position:relative;
-  background-image:url('../images/Ho_Chi_Minh_City_skyline.jpg');
   margin-left:-1%;
   width:102%;
-  background-size:cover;
-  background-attachment:fixed;
   overflow:hidden;
-}*/
+}
 
+h1{
+    color: #eb5d1e;
+    font-weight: 600;
+}
+
+#my-picture{
+  position:relative;
+  width: 75%;
+  margin-bottom:150%;
+ 
+}
 
 .css3-logo {
   width:70%;
 }
 
-
 .transbox {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, .6);
-  padding: 11px;
+  padding: 10px;
   border-radius: 5px;
 }
 
 .white-transbox {
-  position: absolute;
-  bottom: 0;  
+  position: absolute; 
   display: inline-block;
+  background-color:rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, .3);
-  color:#111;
+  color:#000;
   border-radius: 5px;
-  max-height: 100%; /*évite débordements au-delà du container*/
-  max-width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 h3 {
@@ -142,6 +135,11 @@ h3 {
 #linked-in-link:hover {
   background-color:#007bb5;
 }
+
+#codepen-link:hover {
+  background-color: yellowgreen;
+}
+
 
 #mail-link:hover {
   background-color:#dd4b39;
