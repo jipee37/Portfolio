@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,600,700);
 
-html{
+html {
     box-sizing: border-box;
 }
 
@@ -38,7 +38,8 @@ a {
   background-attachment:fixed;
   width:102%;
   margin-left:-1%;
-  overflow:hidden;
+  overflow:hidden; 
+
 }
 
 #contact {
@@ -51,12 +52,12 @@ a {
   overflow:hidden;
 }
 
-h1{
+h1 {
     color: #eb5d1e;
     font-weight: 600;
 }
 
-#my-picture{
+#my-picture {
   position:relative;
   width: 75%;
   margin-bottom:150%;
@@ -139,7 +140,6 @@ h3 {
 #codepen-link:hover {
   background-color: yellowgreen;
 }
-
 
 #mail-link:hover {
   background-color:#dd4b39;
