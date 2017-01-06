@@ -4,7 +4,8 @@
 
   <head>
     <title>Portfolio</title>
-
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta charset="UTF-8" />
@@ -12,10 +13,12 @@
 
     <!--Normalize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+    
+    <!--lightbox CSS -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
     <!--stylesheets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
 
   <body>
@@ -92,8 +95,8 @@
     <section class="row-fluid" id="portfolio">
       <h1 class="text-center">Portfolio</h1>
 
-      <div class="col-xs-12 col-sm-5 col-md-3 thumbnail">
-        <img src="images/backgrounds/img-bg1.jpg">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-3 thumbnail">
+        <img src="images/maquettes/bootstrap_full.png">
           <a href="http://" class="site-link" target="_blank">
             <h4 class="text-center"></h4>
             <p class="text-justify left-right"></p>
@@ -209,7 +212,7 @@
       </div>
 
       <div class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-3 thumbnail">
-        <img src="./images/backgrounds/img-bg1.jpg" alt="">
+        <img src="images/backgrounds/img-bg1.jpg" alt="">
         <a href="http://" class="site-link" target="_blank">
           <h4 class="text-center"></h4>
           <p class="text-justify left-right"></p>
@@ -263,9 +266,16 @@
         </div><!--.whiteTransbox-->
         </div><!--#contact-->
 
+  <!--Jquery-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  
+  <!--javacript plugins-->
   <script src="https://cdn.jsdelivr.net/bootstrap.autohidingnavbar/1.0.5/jquery.bootstrap-autohidingnavbar.min.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  
+  <!-- Bootstrap Core JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
   <script src="js/script.js"></script>
 
   </body>
