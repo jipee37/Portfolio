@@ -22,6 +22,11 @@ a {
   color:#fff !important;
 }
 
+.navbar-right a:hover{
+    color: #eb5d1e !important;
+}
+
+
 #about {
   position: relative;
   background-image: url('../images/backgrounds/img-bg.jpg');
@@ -44,7 +49,7 @@ a {
 
 #contact {
   position:relative;
-  background-image:url('../images/backgrounds/mairie.jpg');
+  background-image:url('../images/backgrounds/illumination-parlement-rennes.jpeg');
   background-size:cover;
   background-attachment:fixed;
   margin-left:-1%;
@@ -70,12 +75,24 @@ h1 {
 
 .transbox {
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .75);
   padding: 10px;
   border-radius: 5px;
 }
 
 .white-transbox {
+  position: absolute; 
+  display: inline-block;
+  background-color:rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, .3);
+  color:#000;
+  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+}
+
+
+.white-transbox-social {
   position: absolute; 
   display: inline-block;
   background-color:rgb(255, 255, 255);
@@ -129,8 +146,23 @@ h3 {
   padding:0 10px;
 }
 
-#github-link:hover, #codepen-link:hover {
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+ #github-link, #codepen-link, #linked-in-link, #mail-link {
+    max-width: 10%;
+    
+}
+
+
+#github-link:hover {
   background-color:#fff;
+  
 }
 
 #linked-in-link:hover {
