@@ -151,28 +151,29 @@ h3 {
 
 
  #github-link, #codepen-link, #linked-in-link, #mail-link {
-     width: 6%;
+     width: 7%;
+     
 }
 
 
 #github-link:hover {
   background-color: #fff;
-  flex 1 0 auto;
+  
 }
 
 #linked-in-link:hover {
   background-color: #007bb5;
-    flex 1 0 auto;
+    
 }
 
 #codepen-link:hover {
   background-color: yellowgreen;
-    flex 1 0 auto;
+    
 }
 
 #mail-link:hover {
   background-color:#dd4b39;
-    flex 1 0 auto;
+   
 }
 
 @media screen and (max-width:768px) {
