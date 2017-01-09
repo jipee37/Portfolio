@@ -82,11 +82,9 @@ h1 {
 
 .white-transbox-langages{
   position: absolute; 
-  /*display: inline-block;*/
   background-color:rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, .3);
   color:#000;
-  font-weight: 600;
   border-radius: 5px;
   bottom: 0;
   left: 0;
@@ -95,14 +93,10 @@ h1 {
 
 .white-transbox-socials {
   position: absolute; 
-  /*display: inline-block;*/
   background-color:rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, .3);
-  /*color:#000;*/
+  background-color: rgba(255, 255, 255, .3); 
   border-radius: 5px;
   bottom: 0;
-  left: 0;
-  /*text-align: center;*/ /*parent element*/
   }
 
 h3 {
@@ -151,29 +145,40 @@ h3 {
 
 .socials {
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-around;
+    /*width: 20%;*/  
 }
 
 
  #github-link, #codepen-link, #linked-in-link, #mail-link {
-     width: 10%;
+     width: 6%;
 }
 
 
 #github-link:hover {
-  background-color: #fff; 
+  background-color: #fff;
+  flex 1 0 auto;
 }
 
 #linked-in-link:hover {
   background-color: #007bb5;
+    flex 1 0 auto;
 }
 
 #codepen-link:hover {
   background-color: yellowgreen;
+    flex 1 0 auto;
 }
 
 #mail-link:hover {
   background-color:#dd4b39;
+    flex 1 0 auto;
 }
 
+@media screen and (max-width:768px) {
+    
+    .socials {
+        
+    }
+    
+}
