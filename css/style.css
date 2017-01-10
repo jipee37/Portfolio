@@ -32,29 +32,29 @@ a {
   background-image: url('../images/backgrounds/img-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
-  margin-left:-1%;
-  width:102%;
-  overflow:hidden;
+  margin-left: -1%;
+  width: 102%;
+  overflow: hidden;
 }
 
 #portfolio {
-  background-image:url('../images/backgrounds/coding-php.jpg');
-  background-size:cover;
-  background-attachment:fixed;
-  width:102%;
-  margin-left:-1%;
-  overflow:hidden; 
+  background-image: url('../images/backgrounds/coding-php.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 102%;
+  margin-left: -1%;
+  overflow: hidden; 
 
 }
 
 #contact {
-  position:relative;
+  position: relative;
   background-image:url('../images/backgrounds/illumination-parlement-rennes.jpeg');
-  background-size:cover;
-  background-attachment:fixed;
+  background-size: cover;
+  background-attachment: fixed;
   margin-left:-1%;
-  width:102%;
-  overflow:hidden;
+  width: 102%;
+  overflow: hidden;
 }
 
 h1 {
@@ -63,9 +63,9 @@ h1 {
 }
 
 #my-picture {
-  position:relative;
+  position: relative;
   width: 75%;
-  margin-bottom:150%;
+  margin-bottom: 150%;
  
 }
 
@@ -143,17 +143,25 @@ h3 {
 }
 
 
-.socials {
+#socials ul {
     display: flex;
-    justify-content: space-around;
-    /*width: 20%;*/  
+    flex-wrap: nowrap;
+    list-style: none;
+    
+}
+
+#socials ul li {
+    
 }
 
 
- #github-link, #codepen-link, #linked-in-link, #mail-link {
+
+
+
+/* #github-link, #codepen-link, #linked-in-link, #mail-link {
      width: 7%;
      
-}
+}*/
 
 
 #github-link:hover {
