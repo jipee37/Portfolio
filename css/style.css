@@ -145,23 +145,21 @@ h3 {
 
 #socials ul {
     display: flex;
-    flex-wrap: nowrap;
     list-style: none;
+    margin: 0;
+    padding: 0;
     
 }
 
-#socials ul li {
+#socials ul li{
+    display: flex;
     
 }
 
 
-
-
-
-/* #github-link, #codepen-link, #linked-in-link, #mail-link {
-     width: 7%;
-     
-}*/
+#socials ul li a img{
+    width: 25%;
+}
 
 
 #github-link:hover {
@@ -186,8 +184,13 @@ h3 {
 
 @media screen and (max-width:768px) {
     
-    .socials {
+    #socials ul li {
+        display: flex;
         
     }
-    
+ 
+    #socials ul li  a img{
+            width: 80%;     
+    }
+        
 }
