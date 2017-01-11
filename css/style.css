@@ -35,6 +35,11 @@ a {
     color: #eb5d1e !important;
 }
 
+h1 {
+    color: #eb5d1e;
+    font-weight: 600;
+}
+
 
 #about {
   position: relative;
@@ -46,29 +51,7 @@ a {
   overflow: hidden;
 }
 
-#portfolio {
-  background-image: url('../images/backgrounds/coding-php.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  width: 102%;
-  margin-left: -1%;
-  overflow: hidden; 
-}
 
-#contact {
-  position: relative;
-  background-image:url('../images/backgrounds/illumination-parlement-rennes.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
-  margin-left:-1%;
-  width: 102%;
-  overflow: hidden;
-}
-
-h1 {
-    color: #eb5d1e;
-    font-weight: 600;
-}
 
 #my-picture {
   position: relative;
@@ -94,19 +77,46 @@ h1 {
   left: 0;
 }
 
-.white-transbox-socials {
-  position: absolute; 
-  background-color:rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, .3); 
-  border-radius: 5px;
-  bottom: 0;
-  }
-
 h3 {
     padding-bottom: .3em;
 }
 
-/* Styles for portfolio */
+
+.white-transbox-langages ul {   
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .white-transbox-langages ul {
+       display: inline-block;
+    }
+    
+     .center {
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+    }
+}
+
+
+
+
+/**** Styles for portfolio ****/
+
+#portfolio {
+  background-image: url('../images/backgrounds/coding-php.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 102%;
+  margin-left: -1%;
+  overflow: hidden; 
+}
+
 
 .thumbnail {
   position: relative;
@@ -142,25 +152,28 @@ h3 {
   padding:0 10px;
 }
 
- .white-transbox-langages ul {   
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+/* Contact Section, Socials icones */
+
+#contact {
+  position: relative;
+  background-image:url('../images/backgrounds/illumination-parlement-rennes.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left:-1%;
+  width: 102%;
+  overflow: hidden;
 }
 
 
-@media screen and (max-width:768px){
-    
-    .white-transbox-langages ul {
-       display: inline-block;
-    }
-    
-    div.center img{
-        text-align: center;
-      
-    }
-}
+.white-transbox-socials {
+  position: absolute; 
+  background-color:rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, .3); 
+  border-radius: 5px;
+  bottom: 0;
+  }
+
 
 #socials ul {
     display: flex;
@@ -175,7 +188,7 @@ h3 {
 }
 
 
-#socials ul li a img{
+#socials ul li a img {
     width: 25%;
 }
 
@@ -208,6 +221,5 @@ h3 {
  
     #socials ul li a img{
             width: 80%;     
-    }
-        
+    }        
 }
