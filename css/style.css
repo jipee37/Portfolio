@@ -41,6 +41,8 @@ h1 {
 }
 
 
+/**** Styles for about ****/
+
 #about {
   position: relative;
   background-image: url('../images/backgrounds/img-bg.jpg');
@@ -67,6 +69,7 @@ h1 {
   border-radius: 5px;
 }
 
+
 .white-transbox-langages {
   position: absolute; 
   background-color:rgb(255, 255, 255);
@@ -76,6 +79,7 @@ h1 {
   bottom: 0;
   left: 0;
 }
+
 
 h3 {
     padding-bottom: .3em;
@@ -100,11 +104,14 @@ h3 {
          display: inline-flex;
          justify-content: center;
          align-items: center;
+         /*width: 80%;*/
+    }
+    
+    .center img{
+        height: 22.5%;
+        width: 22.5%;
     }
 }
-
-
-
 
 /**** Styles for portfolio ****/
 
@@ -118,10 +125,15 @@ h3 {
 }
 
 
+/*a[href="#"]{
+    padding: 1em;
+}*/
+
 .thumbnail {
   position: relative;
   border: none;
 }
+
 
 .site-link {
   position:absolute;
@@ -135,9 +147,11 @@ h3 {
   color:#fff;
 }
 
+
 .site-link:hover {
   opacity:1;
 }
+
 
 .languages-used {
   position:absolute;
@@ -146,6 +160,7 @@ h3 {
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, .4);
 }
+
 
 
 .left-right {

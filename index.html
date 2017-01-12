@@ -1,294 +1,196 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 
-  <head>
+<head>
     <title>Portfolio</title>
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta charset="UTF-8" />
     <meta name="jp" content="portfolio" />
-
     <!--Normalize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    
     <!--lightbox CSS -->
     <link href="css/lightbox.min.css" rel="stylesheet">
     <!--stylesheets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
+    <link rel="stylesheet" href="css/style.css" /> </head>
 
-  <body>
+<body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><p>Jean-Patrice CALVEZ</p> </a>
-             </div>
-
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="#">
+                    <p>Jean-Patrice CALVEZ</p>
+                </a>
+            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-         </div><!-- /.container-fluid -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
-
-   
-    <header class="row-fluid" id="about">
+    <header class="container-fluid" id="about">
+        <h1 class="text-center">Hello World!</h1>
+        <div class="col-sm-offset-1 col-sm-6 col-md-offset-3">
+            <h4 class="transbox text-justify"> Je suis un web développeur orienté front-end junior issu de la Code Académie Rennes.<br><br>Je recherche un stage au sein d'une agence web pour développer des sites internet et des applications. Je suis disposé à exercer des fonctions similaires dans le cadre du télé-travail.
+        </h4> </div>
+        <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 col-md-2"> <img id="my-picture" class="img-responsive img-circle" src="images/myself.jpg"> </div>
+        <!--.col-xs-offset-3-->
+        <div class="col-sm-12 col-md-offset-2 col-md-8 white-transbox-langages">
+            <h3>Langages/Frameworks</h3>
+            <ul>
+                <li class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="html5-logo" /> </li>
+                <li class="col-xs-3"> <img class="img-responsive" src="images/logos/css3-512.png" alt="css3-logo" /> </li>
+                <li class="col-xs-3"> <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="javascript-logo" /> </li>
+                <li class="col-xs-3"> <img class="img-responsive" src="images/logos/angularjs-512.png" alt="Angular-1-logo" /> </li>
+                <li class="col-xs-12 center"> <img class="col-xs-3 img-responsive" src="images/logos/bootstrap-512.png" alt="bootstrap-3-logo" /> <img class="col-xs-3 img-responsive" src="images/logos/jquery.png" alt="jquery-logo" /> <img class="col-xs-3 img-responsive" src="images/logos/wordpress-logo-512.png" alt="wordpress-logo" /> </li>
+            </ul>
+        </div>
+        <!--.whiteTransbox-->
+    </header>
+    <!--#about-->
+    <section class="container-fluid" id="portfolio">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1 class="section-header">Portfolio</h1>
+                <p class="tagline"></p>
+            </div>
+        </div>
         
-      <h1 class="text-center">Hello World!</h1>
-
-      <div class="col-sm-offset-1 col-sm-6 col-md-offset-3">
-        <h4 class="transbox text-justify"> Je suis un web développeur orienté front-end junior issu de la Code Académie Rennes.<br><br>Je recherche un stage au sein d'une agence web pour développer des sites internet et des applications. Je suis disposé à exercer des fonctions similaires dans le cadre du télé-travail.
-        </h4>
-      </div>
-
-      <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-4 col-md-2">
-        <img id="my-picture" class="img-responsive img-circle" src="images/myself.jpg">
-      </div><!--.col-xs-offset-3-->
-
-      <div class="col-sm-12 col-md-offset-2 col-md-8 white-transbox-langages">
-        <h3>Langages/Frameworks</h3>             
-        
-        <ul>
-          
-          <li class="col-xs-3">
-          <img class="img-responsive" src="images/logos/html5.png" alt="html5-logo"/>
-          </li>
-        
-          <li class="col-xs-3"> 
-          <img class="img-responsive" src="images/logos/css3-512.png" alt="css3-logo"/>
-          </li>
-
-          <li class="col-xs-3">
-          <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="javascript-logo"/>
-          </li>
-
-          <li class="col-xs-3">
-          <img class="img-responsive" src="images/logos/angularjs-512.png" alt="Angular-1-logo"/>
-          </li>
-          
-          
-          <li class="col-xs-12 center">
-          <img class="col-xs-3 img-responsive" src="images/logos/bootstrap-512.png" alt="bootstrap-3-logo"/>
-          
-
-        
-          
-          <img class="col-xs-3 img-responsive" src="images/logos/jquery.png" alt="jquery-logo"/>
-         
-         
-         
-         
-          <img  class="col-xs-3 img-responsive" src="images/logos/wordpress-logo-512.png" alt="wordpress-logo"/>
-          </li>
-        </ul>
-      
-      </div><!--.whiteTransbox-->
-     </header><!--#about-->
-
-    <section class="row-fluid" id="portfolio">
-      <h1 class="text-center">Portfolio</h1>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-xl-4 thumbnail">
-        
-          <img src="images/backgrounds/img-bg1.jpg" alt="#">  
-          
-           <a href="http://" class="site-link" target="_blank">
-            <h4 class="text-center"></h4>
-            <p class="text-justify left-right"></p>
-            <div class="languages-used">
-              <div class="col-xs-3">
-                <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo">
-              </div>
-
-              <div class="col-xs-3">
-                <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS3 logo">
-              </div>
-              <div class="col-xs-3">
-                <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo">
-              </div>
-                <div class="col-xs-3">
-                  <img class="img-responsive" src="images/logos/angularjs-512.png" alt="Angular1Logo" />
+        <!-- Portfolio Entries -->
+        <div class="col-xs-12 col-sm-4 col-md-4 col-xl-4 thumbnail"> <img src="images/backgrounds/img-bg1.jpg" alt="#">
+            <a href="http://" class="site-link" target="_blank">
+                <h4 class="text-center"></h4>
+                <p class="text-justify left-right"></p>
+                <div class="languages-used">
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS3 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/angularjs-512.png" alt="Angular1Logo" /> </div>
                 </div>
-            </div>
-          </a>
-      </div>
-
-      <div class="col-xs-12 col-sm-4  thumbnail">
-        <img src="images/backgrounds/img-bg1.jpg" alt="#">
-          <a href="http://" class="site-link" target="_blank">
-            <h4 class="text-center"></h4>
-            <p class="text-justify left-right"></p>
-            <div class="languages-used">
-              <div class="col-xs-3">
-                <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo">
-              </div>
-
-              <div class="col-xs-3">
-                <img  class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS 3 logo">
-              </div>
-
-              <div class="col-xs-3">
-                <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo">
-              </div>
-
-              <div class="col-xs-3">
-                <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript-logo">
-              </div>
-            </div>
-          </a>
-       </div>
-
-      <div class="col-xs-12 col-sm-4 thumbnail">
-        <img src="images/backgrounds/img-bg1.jpg" alt="">
-        <a href="http://" class="site-link" target="_blank">
-          <h4 class="text-center"></h4>
-          <p class="text-justify left-right"></p>
-          <div class="languages-used">
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img  class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS 3 logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript-logo">
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-12 col-sm-4  thumbnail">
-        <img src="./images/backgrounds/img-bg1.jpg" alt="">
-        <a href="http://" class="site-link" target="_blank">
-          <h4 class="text-center"> </h4>
-          <p class="text-justify left-right"></p>
-          <div class="languages-used">
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img  class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS 3 logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript Logo">
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-12 col-sm-4  thumbnail">
-        <img src="images/backgrounds/img-bg1.jpg" alt="">
-        <a href="http://" class="site-link" target="_blank">
-          <h4 class="text-center"></h4>
-          <p class="text-justify left-right"></p>
-          
-           <div class="languages-used">
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS-3-logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript-logo">
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 thumbnail">
-        <img src="images/backgrounds/img-bg1.jpg" alt="#">
-        <a href="http://" class="site-link" target="_blank">
-          <h4 class="text-center"></h4>
-          <p class="text-justify left-right"></p>
-          <div class="languages-used">
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS-3-logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo">
-            </div>
-
-            <div class="col-xs-3">
-              <img class="img-responsive" src="images/logos/jquery.png" alt="jQuery logo">
-            </div>
-          </div>
-        </a>
-      </div>
-    </section><!--#portfolio-->
-
-  <div class="row-fluid" id="contact">
+            </a>
+        </div>
         
-    <div class="col-xs-12">
-        <h1 class="text-center">Me contacter</h1>
-    </div>
-
-    <div class="col-sm-6 col-sm-offset-3 transbox">
-        <h4 class="text-justify">Comme mentionné précédemment, je suis en recherche active d' un emploi et suis à l'affût d'opportunités. Si vous avez un projet à soumettre concernant l'implémentation de votre site web, n'hésitez pas à me contacter, de préférence par email.</h4>
-    </div>
-
-    <div id="socials" class="white-transbox-socials col-xs-12 col-sm-8 col-sm-offset-2">
-        
-        <ul>       
-            <li><a id="github-link" href="https://github.com"><img  src="images/socials/Github.png" alt="Github">
-            </a></li>
-        
-        
-            <li><a id="linked-in-link"href="https://www.linkedin.com"><img  src="images/socials/LinkedIn.png" alt="LinkedIn">
-            </a></li>
-        
-        
-            <li><a id="codepen-link" href="http://codepen.io"><img  src="images/socials/Codepen.png" alt="codepen"></a></li>
-       
-        
-            <li><a id="mail-link"href="mailto:j.calvez@sfr.fr"><img  src="images/socials/Gmail_Logo.png" alt="Gmail"></a></li>
-        </ul>
+        <div class="col-xs-12 col-sm-4  thumbnail"> <img src="images/backgrounds/img-bg1.jpg" alt="#">
+            <a href="http://" class="site-link" target="_blank">
+                <h4 class="text-center"></h4>
+                <p class="text-justify left-right"></p>
+                <div class="languages-used">
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS 3 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript-logo"> </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 thumbnail"> <img src="images/backgrounds/img-bg1.jpg" alt="">
+            <a href="http://" class="site-link" target="_blank">
+                <h4 class="text-center"></h4>
+                <p class="text-justify left-right"></p>
+                <div class="languages-used">
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS 3 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript-logo"> </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4  thumbnail"> <img src="./images/backgrounds/img-bg1.jpg" alt="">
+            <a href="http://" class="site-link" target="_blank">
+                <h4 class="text-center"> </h4>
+                <p class="text-justify left-right"></p>
+                <div class="languages-used">
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS 3 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript Logo"> </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4  thumbnail"> <img src="images/backgrounds/img-bg1.jpg" alt="">
+            <a href="http://" class="site-link" target="_blank">
+                <h4 class="text-center"></h4>
+                <p class="text-justify left-right"></p>
+                <div class="languages-used">
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS-3-logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/javascript_logo-512.png" alt="Javascript-logo"> </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 thumbnail"> <img src="images/backgrounds/img-bg1.jpg" alt="#">
+            <a href="http://" class="site-link" target="_blank">
+                <h4 class="text-center"></h4>
+                <p class="text-justify left-right"></p>
+                <div class="languages-used">
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/html5.png" alt="HTML5 logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive css3-logo" src="images/logos/css3-512.png" alt="CSS-3-logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/bootstrap-512.png" alt="Bootstrap-3-logo"> </div>
+                    <div class="col-xs-3"> <img class="img-responsive" src="images/logos/jquery.png" alt="jQuery logo"> </div>
+                </div>
+            </a>
+        </div>
+        <!--#portfolio-->
      
-    </div><!--.whiteTransboxSocials-->
-  </div><!--#contact-->
-
-  <!--Jquery-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  
-  <!--javacript plugins-->
-  <script src="https://cdn.jsdelivr.net/bootstrap.autohidingnavbar/1.0.5/jquery.bootstrap-autohidingnavbar.min.js"></script>
-  <script src="js/lightbox-plus-jquery.min.js"></script>
-  
-  <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  
-  <script src="js/script.js"></script>
-
-  </body>
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                            
+    </section>
+    <!--#portfolio-->
+    <div class="row-fluid" id="contact">
+        <div class="col-xs-12">
+            <h1 class="text-center">Me contacter</h1> </div>
+        <div class="col-sm-6 col-sm-offset-3 transbox">
+            <h4 class="text-justify">Comme mentionné précédemment, je suis en recherche active d' un emploi et suis à l'affût d'opportunités. Si vous avez un projet à soumettre concernant l'implémentation de votre site web, n'hésitez pas à me contacter, de préférence par email.</h4> </div>
+        <div id="socials" class="white-transbox-socials col-xs-12 col-sm-8 col-sm-offset-2">
+            <ul>
+                <li>
+                    <a id="github-link" href="https://github.com"><img src="images/socials/Github.png" alt="Github"> </a>
+                </li>
+                <li>
+                    <a id="linked-in-link" href="https://www.linkedin.com"><img src="images/socials/LinkedIn.png" alt="LinkedIn"> </a>
+                </li>
+                <li>
+                    <a id="codepen-link" href="http://codepen.io"><img src="images/socials/Codepen.png" alt="codepen"></a>
+                </li>
+                <li>
+                    <a id="mail-link" href="mailto:j.calvez@sfr.fr"><img src="images/socials/Gmail_Logo.png" alt="Gmail"></a>
+                </li>
+            </ul>
+        </div>
+        <!--.whiteTransboxSocials-->
+    </div>
+    <!--#contact-->
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--javacript plugins-->
+    <script src="https://cdn.jsdelivr.net/bootstrap.autohidingnavbar/1.0.5/jquery.bootstrap-autohidingnavbar.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
 
 </html>
