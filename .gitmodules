@@ -1,3 +1,6 @@
 [submodule "Audiotheme"]
 	path = Audiotheme
 	url = https://github.com/jipee37/Audiotheme.git
+[submodule "tinder"]
+	path = tinder
+	url = https://github.com/jipee37/tinder.git

@@ -93,6 +93,9 @@ h3 {
     padding: 0;
 }
 
+.center {
+    padding-left: 0;
+}
 
 @media screen and (max-width:768px) {
     
@@ -134,8 +137,6 @@ h3 {
 }
 
 
-
-
 .site-link {
   position:absolute;
   opacity:0;
@@ -168,7 +169,6 @@ h3 {
   align-items: center;
 }
     
-
 
 
 .left-right {
