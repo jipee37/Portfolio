@@ -7,3 +7,6 @@
 [submodule "my_JS-quiz"]
 	path = my_JS-quiz
 	url = https://github.com/jipee37/my_JS-quiz.git
+[submodule "Create-Pro"]
+	path = Create-Pro
+	url = https://github.com/jipee37/Create-Pro.git
