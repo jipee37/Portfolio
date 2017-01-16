@@ -4,6 +4,3 @@
 [submodule "tinder"]
 	path = tinder
 	url = https://github.com/jipee37/tinder.git
-[submodule "my-JS-quizzz"]
-	path = my-JS-quizzz
-	url = https://github.com/jipee37/my-JS-quizzz.git
