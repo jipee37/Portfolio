@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   var wWidth = window.innerWidth;
   var wHeight = window.innerHeight;
