@@ -124,7 +124,7 @@ h3 {
   background-attachment: fixed;
   width: 102%;
   margin-left: -1%;
-  overflow: hidden; 
+  overflow: ; 
 }
 
 
@@ -169,7 +169,6 @@ h3 {
   align-items: center;
 }
     
-
 
 .left-right {
   padding:0 10px;
