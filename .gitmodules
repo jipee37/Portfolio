@@ -10,3 +10,6 @@
 [submodule "Create-Pro"]
 	path = Create-Pro
 	url = https://github.com/jipee37/Create-Pro.git
+[submodule "start-bootstrap"]
+	path = start-bootstrap
+	url = https://github.com/jipee37/start-bootstrap.git
