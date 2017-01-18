@@ -155,6 +155,12 @@ h3 {
 }
 
 
+.text-justify  {
+  width: 98%;
+  margin-left: .4%;
+}
+
+
 .languages-used ul{
   position:absolute;
   bottom:0;
